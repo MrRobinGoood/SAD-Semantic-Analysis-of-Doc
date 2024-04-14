@@ -24,7 +24,9 @@
 
  - Интерфейс приложения: 
 
-![интерфейс](https://github.com/MrRobinGoood/SAD-Semantic-Analysis-of-Doc/blob/master/resources/Screenshot_4.png)
+![интерфейс1](https://github.com/MrRobinGoood/SAD-Semantic-Analysis-of-Doc/blob/master/resources/Screenshot_4.png)
+
+![интерфейс2](https://github.com/MrRobinGoood/SAD-Semantic-Analysis-of-Doc/blob/master/resources/Screenshot_5.png)
 
 На данный момент доступны 11 классов:
 - proxy - доверенность
@@ -38,6 +40,8 @@
 - contract offer - договор оферты
 - statute - устав
 - determination - решение
+
+Наше решение работает с форматами PDF, WORD(.docx) и EXCEL(.xlsx)
 
 Также мы собрали датасет для обучения, в котором более 1100 документов [Датасет](https://disk.yandex.ru/d/0peXuWR-dOxwdg). 
 
