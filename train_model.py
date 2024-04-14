@@ -6,7 +6,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.svm import SVC
 
-df = pd.read_csv("dataset/all_dataset.csv")
+df = pd.read_csv("dataset/sample.csv")
 
 vectorized = CountVectorizer()
 
@@ -23,8 +23,8 @@ y_pred = model.predict(X_test)
 
 f1 = f1_score(y_test, y_pred, average='macro')
 
-dump(model, 'model/model2.joblib')
+dump(model, 'model/temp1.joblib')
 
-dump(vectorized, 'model/vector2.joblib')
+dump(vectorized, 'model/temp2.joblib')
 
 print(f"F1-score: {f1}")

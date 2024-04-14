@@ -2,7 +2,6 @@ from fastapi.middleware.cors import CORSMiddleware
 import io
 import pandas as pd
 from docx import Document
-# pip install python-docx
 from PyPDF2 import PdfReader
 from fastapi import FastAPI, UploadFile, File, Response
 from typing import List

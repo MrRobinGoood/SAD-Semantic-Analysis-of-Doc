@@ -2,8 +2,8 @@ from joblib import load
 from prepare_text import clear_text_list
 import pandas as pd
 
-model = load('model/model1.joblib')
-vectorized = load('model/vector1.joblib')
+model = load('model/final_model.joblib')
+vectorized = load('model/final_vector.joblib')
 
 def predict_class(text):
     cleaned_text = clear_text_list([text])
