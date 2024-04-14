@@ -45,6 +45,8 @@
 
 Также мы собрали датасет для обучения, в котором более 1100 документов [Датасет](https://disk.yandex.ru/d/0peXuWR-dOxwdg). 
 
+Результат обработки тестового датасета [submission.csv](https://github.com/MrRobinGoood/SAD-Semantic-Analysis-of-Doc/blob/master/result/submission.csv)
+
 ## Инструкция для запуска
 ### Для локального запуска на машине
 Пошаговая инструкция:
